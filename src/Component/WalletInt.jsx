@@ -2,7 +2,8 @@ import React, { useState, useEffect } from "react";
 import Web3Modal from "web3modal";
 import { ethers } from "ethers";
 
-const App = () => {
+
+const WalletInt = () => {
   const [walletAddress, setWalletAddress] = useState(null);
   const [web3Modal, setWeb3Modal] = useState(null);
 
@@ -84,4 +85,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default WalletInt;
